@@ -42,7 +42,7 @@ ul{
     text-align: left;
     display: block;
     width: 100vw;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 10px;
 }
 
@@ -51,7 +51,7 @@ li{
     color:   #0FF2DB;
     display: inline-block;
     font-size: 0.8em;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 
@@ -153,14 +153,14 @@ article#imagem > img{
 }
 #infor-projeto{
     display: block;
-    height: 59%;
+    height: 100%;
     width: 100%;
     background-color: rgba(95, 158, 160, 0.286);
     transform: translate();
     color: black;
     font-size: 0.7em;
     text-align: center;
-    padding: 4px;
+    padding: 20px 4px 4px 4px;
 
 
 }
