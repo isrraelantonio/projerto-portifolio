@@ -250,14 +250,16 @@ section#projetos > article{
     box-shadow: #0000001e 2px 2px 8px ;
 }
 #acesse{
-    margin-top: 20px;
-    font-size: 1.5em;
+    margin-top: 10px;
+    font-size: 1.8em;
     font-family: var(--fonte1);
-    color: #0756B2;
     text-shadow: #033d6c35 2px 1px;
+    text-align: center;
 }
-#acesse:hover{
-    color: black;
+
+#acesse a{
+    color: #0756B2;
+    
 }
 #linguagem{
     width: 60px;
