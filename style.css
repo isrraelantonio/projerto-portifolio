@@ -202,6 +202,7 @@ section#projetos > article{
     width: 70%;
     border-radius: 10px 10px 0px 0px;
     background-color: #0756B2;
+    box-shadow: #0000001e 2px 2px 8px ;
     
 }
 
@@ -211,17 +212,13 @@ section#projetos > article{
     background-repeat: no-repeat;
     background-position: top center;
 }
-#imagem4:hover{
-    
-    background-color: #0757b248;
-    
 
-}
 #imagem5{
     background-image: url(imagens/projeto_login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 
 
 }
@@ -239,6 +236,7 @@ section#projetos > article{
     padding: 0px;
     margin: 0px  auto 20px auto;
     
+    
 }
 
 #infor-projeto{
@@ -249,8 +247,18 @@ section#projetos > article{
     text-align: center;
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: #0000001e 2px 2px 8px ;
 }
-
+#acesse{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: var(--fonte1);
+    color: #0756B2;
+    text-shadow: #033d6c35 2px 1px;
+}
+#acesse:hover{
+    color: black;
+}
 #linguagem{
     width: 60px;
     height: 20px ;
