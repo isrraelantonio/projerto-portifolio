@@ -33,12 +33,12 @@ header{
    background-size: cover;
    background-repeat: no-repeat;
    background-color: aquamarine;
-   height: 100px;
+   height: 15%;
 }
 
 menu{
     background-color: #085CA6;
-    margin-top: 0.5px;
+    margin-top: 0px;
     height: 40px;
 }
 
@@ -94,6 +94,17 @@ h3{
     font-weight: lighter;
     
 }
+h2{
+    text-align: center;
+    padding: 20px 40px 0px 40px;
+    font-size: 1em;
+    margin-bottom: 30px;
+    font-family:var(--fonte1);
+    font-weight: lighter;
+    color: #085CA6;
+    text-shadow: #033d6c15 2px 1px;
+
+}
 
 
 #oquefaco{
@@ -133,15 +144,20 @@ h3{
     width: 40%;
     padding-left: 11%;
     margin: 12px auto 0px auto;
+    
+}
+#redes div{
+    display: inline-block;
+   
 }
 
 a > img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 a:hover > img{
-    transform: translate(5px);
+    transform: translate(0px, -5px);
 }
 
 
@@ -271,13 +287,22 @@ section#projetos > article{
     width: 60px;
     height: 20px;    
 }
-
-
-.imagem:hover{
+#conversa{
+    width: 90%;
+    height: 130px;
+    background-color: #0FF2DB;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    font-family: var(--fonte1);
+    font-size: 0.7em;
    
-   
-
 }
+#contato>  p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 footer{ 
     height: 28px;
     background-color: #085CA6;
