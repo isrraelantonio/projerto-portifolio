@@ -202,14 +202,14 @@ section#projetos > article{
 }
 
 #imagem4{
-    background-image: url(imagens/ScreenshotChrome.jpg);
+    background-image: url(imagens/projeto_android.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 #imagem5{
-    background-image: url(imagens/baixar.png);
+    background-image: url(imagens/projeto_login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -217,7 +217,7 @@ section#projetos > article{
 
 }
 #imagem6{
-    background-image: url(/imagens/Screenshot_20240825-203124_Chrome.jpg);
+    background-image: url(imagens/porjeto_cordel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
