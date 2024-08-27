@@ -202,14 +202,14 @@ section#projetos > article{
 }
 
 #imagem4{
-    background-image: url(/imagens/Screenshot_20240825-202819_Chrome.jpg);
+    background-image: url(imagens/ScreenshotChrome.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 #imagem5{
-    background-image: url(/imagens/Screenshot_20240825-202919_Chrome.jpg);
+    background-image: url(imagens/baixar.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
