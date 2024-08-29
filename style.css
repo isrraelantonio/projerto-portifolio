@@ -286,24 +286,63 @@ section#projetos > article{
 }
 #conversa{
     width: 90%;
-    height: 130px;
-    background-color: #0FF2DB;
-    margin: 0px auto 20px auto;
+    height: 110px;
+    background-color: #b8f5ed;
+    margin: 0px auto 15px auto;
     text-align: center;
     padding: 20px 10px 10px 10px;
     font-family: var(--fonte1);
     font-size: 0.7em;
+    color: #074892;
    
 }
 #contato>  p{
+    font-family: var(--fonte1);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline;  
+}
+p> img{
+   width: 50px;
+   height: 50px;
+   transform: translate(0px, 20px);
+
+   
+
 }
 
 footer{ 
-    height: 28px;
+    height: 40px;
     background-color: #085CA6;
+  
 }
-
-
-
+#a, #b, #c {
+    display: inline-block;
+    font-size: 0.7em;
+    color: #0FF2DB;
+    padding-top: 5px;
+    font-family: var(--fonte1);
+}
+#a{
+    float: left center;
+    font-size: 0.9em;
+    width: 15%;
+    text-align: center;
+}
+#b{
+    width: 47%;
+    float: center;
+    text-align: center;
+}
+#c{
+    float: right center;
+    width: 30%;
+    text-align: center;
+}
+#c span{
+    transform: translate(0px, 5px);
+    margin-left: 3px;
+}
+#c span:hover{
+   transform: translate(3px, 0px);
+}
