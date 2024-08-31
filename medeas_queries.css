@@ -59,6 +59,19 @@
         margin-right: 3%;
         border-radius: 10px 10px 10px 10px;
     }
+    #imagem4{
+        background-image: url(imagens/comp_android.jpeg);
+    }
+
+
+    #imagem5{
+        background-image: url(imagens/comp_login.jpeg);
+    }
+
+    #imagem6{
+        background-image: url(imagens/comp_cordel.jpeg);
+        background-position: bottom center;
+    }
     #infor-projeto{
         width: 40%;
         height: 100px;
