@@ -350,24 +350,30 @@ footer{
     font-family: var(--fonte1);
 }
 #a{
-    float: left center;
+    float: left ;
     font-size: 0.9em;
+    margin-top: 10px;
     width: 15%;
     text-align: center;
+   
+    padding-left: ;
 }
 #b{
-    width: 47%;
-    float: center;
+    margin-top: 14px;
+   
+    width: 50%;
+    float: center center;
     text-align: center;
 }
 #c{
-    float: right center;
-    width: 30%;
+    margin-top: 2px;
+    float: right ;
+    width: 34%;
     text-align: center;
+    
 }
 #c span{
     transform: translate(0px, 5px);
-    margin-left: 3px;
 }
 #c span:hover{
    transform: translate(3px, 0px);
