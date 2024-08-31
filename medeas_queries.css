@@ -104,6 +104,8 @@
         font-size: 1.2em;
 
     }
+    
+    
     #linguagem{
         margin-left: auto;
         margin-right: auto;
@@ -127,17 +129,17 @@
         height: 50px;
      }
     a{
-        font-size: 1em;
+        font-size: 0.9em;
         margin-right: 27px;
 
      }
 
     a:hover{
-       font-size: 1.1em;
+       font-size: 1em;
     }
 
     main{
-    width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -163,7 +165,7 @@
         margin: auto;
     }
     #projetos{
-        height: 1000px;
+        height: 1090px;
         background-color: rgba(0, 0, 0, 0.045);
        
     }
@@ -201,11 +203,11 @@
     }
     #infor-projeto{
         width: 40%;
-        height: 200px;
+        height: 250px;
         display: block;
         float: left;
         margin: 3%;
-        margin-top: 6%;
+        margin-top: 4%;
         border-radius: 10px 10px 10px 10px;
     }
     #infor-projeto > p{
@@ -223,9 +225,15 @@
       
     }
     #linguagem{
+        width: 60px;
+        height: 20px;
+        margin: 7px auto 0px auto;
+    }
+    
+    #linguagem{
        margin-left: auto;
        margin-right: auto;
-        width: 100px;
+       width: 100px;
         height: 50px;
         background-color: white;
         border-radius: 100%;
@@ -233,4 +241,13 @@
       #linguagem > img{
         margin-top: 13%;    
     }
+    
+
+
+
+
+
+
+
+
 }
