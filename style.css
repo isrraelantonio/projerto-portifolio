@@ -85,7 +85,7 @@ h1{
     padding: 10px;
 }
 
-h3{
+#info-sou{
     text-align: center;
     padding: 20px;
     font-size: 0.8em;
@@ -141,16 +141,18 @@ h2{
 }
 
 #redes{
-    width: 50%;
-    padding-left: 11%;
+    width: 140px;
     margin: 12px auto 0px auto;
-   
-    
 }
-
+#git{
+    float: left;
+}
+#lik{
+    float: right;
+}
 a > img{
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
 }
 
 a:hover > img{

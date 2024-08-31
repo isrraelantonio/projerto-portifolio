@@ -1,0 +1,101 @@
+@charset 'utf-8';
+
+@media screen and (min-width: 760px) and (max-width: 992px){
+
+    header{
+        height: 22%;
+       
+     }
+
+    nemu{
+        height: 45px;
+     }
+
+    a{
+        font-size: 0.9em;
+        margin-right: 27px;
+
+     }
+
+    a:hover{
+       font-size: 1em;
+    }
+    
+    main{
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #oquefaco{
+        height: 300px;
+        width: 78%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #redes{
+        width: 150px;
+    }
+    a > img{
+       
+        width: 46px;
+        height: 46px;
+    }
+    
+    .texto{
+        width: 100%;
+        height: 300px;
+    }
+
+    .imagem{
+        float: right;
+        display: block;
+        width: 50%;
+        height: 200px;
+        background-color: black;
+        margin-top: 5%;
+        margin-right: 3%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #infor-projeto{
+        width: 40%;
+        height: 100px;
+        display: block;
+        margin-left:3%;
+        transform: translate(0px, 90px);
+        border-radius: 10px 10px 10px 10px;
+       
+        
+    }
+    #linguagem{
+      transform: translate(132px, 100px);
+      margin-left: 1%;
+    }
+    
+    h2{
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    header{
+        height: 26%;
+     }
+    nemu{
+        height: 50px;
+     }
+    a{
+        font-size: 1em;
+        margin-right: 27px;
+
+     }
+
+    a:hover{
+       font-size: 1.1em;
+    }
+
+
+}
