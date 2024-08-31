@@ -203,11 +203,14 @@ a:hover > img{
 }
 
 #projetos{
-    height: 1000px;
+    height: 1010px;
+    
+    
     
 }
 section#projetos > article{
-    height: 32%;
+    height: 31%;
+    margin-top: 30px;
 }
 
 .imagem{
@@ -246,17 +249,16 @@ section#projetos > article{
 }
 
 .texto{
-    height: 40%;
+    height: 50%;
     width: 70%;
     padding: 0px;
     margin: 0px  auto 20px auto;
-    
-    
+
 }
 
 #infor-projeto{
     display: block;
-    height: 90%;
+    height: 100%;
     background-color: rgba(95, 158, 160, 0.286);
     font-size: 0.6em;
     text-align: center;
@@ -264,6 +266,11 @@ section#projetos > article{
     border-radius: 0px 0px 10px 10px;
     box-shadow: #0000001e 2px 2px 8px ;
 }
+#infor-projeto > p{
+   
+    padding-left: 26px;
+}
+
 #acesse{
     margin-top: 10px;
     font-size: 1.8em;
@@ -278,14 +285,31 @@ section#projetos > article{
 }
 #linguagem{
     width: 60px;
-    height: 20px ;
-    margin: 12px auto 0px auto;
+    height: 20px;
+    margin: 5px auto 0px auto;
 }
 
 #linguagem > img{
-    width: 60px;
-    height: 20px;    
+    width: 49px;
+    height: 20px;
+    margin-top: 18%; 
 }
+#linguagem{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+   }
+   
+
+
+
+
+
+
+
 #conversa{
     width: 90%;
     height: 110px;

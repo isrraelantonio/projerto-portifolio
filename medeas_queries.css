@@ -43,10 +43,21 @@
         width: 46px;
         height: 46px;
     }
+    #info-sou{
+        width: 90%;
+        margin: auto;
+    }
+    #projetos{
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.045);
+       
+    }
+    
     
     .texto{
         width: 100%;
         height: 300px;
+        
     }
 
     .imagem{
@@ -54,11 +65,12 @@
         display: block;
         width: 50%;
         height: 200px;
-        background-color: black;
         margin-top: 5%;
         margin-right: 3%;
         border-radius: 10px 10px 10px 10px;
     }
+
+    
     #imagem4{
         background-image: url(imagens/comp_android.jpeg);
     }
@@ -72,24 +84,38 @@
         background-image: url(imagens/comp_cordel.jpeg);
         background-position: bottom center;
     }
+    
     #infor-projeto{
         width: 40%;
-        height: 100px;
+        height: 200px;
         display: block;
-        margin-left:3%;
-        transform: translate(0px, 90px);
+        float: left;
+        margin: 3%;
+        margin-top: 5%;
         border-radius: 10px 10px 10px 10px;
-       
-        
     }
-    #linguagem{
-      transform: translate(132px, 100px);
-      margin-left: 1%;
+    #infor-projeto > p{
+        margin: 8%;
+        padding-left: 26px;
     }
+    
     
     h2{
         font-size: 1.2em;
+
     }
+    #linguagem{
+        margin-left: auto;
+        margin-right: auto;
+         width: 100px;
+         height: 50px;
+         background-color: white;
+         border-radius: 100%;
+       }
+       #linguagem > img{
+         margin-top: 13%;    
+     }
+
 
 }
 
@@ -110,5 +136,101 @@
        font-size: 1.1em;
     }
 
+    main{
+    width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+
+    #oquefaco{
+        height: 300px;
+        width: 78%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #redes{
+        width: 150px;
+    }
+    a > img{
+       
+        width: 46px;
+        height: 46px;
+    }
+    #info-sou{
+        width: 90%;
+        margin: auto;
+    }
+    #projetos{
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.045);
+       
+    }
+    
+    .texto{
+        width: 100%;
+        height: 300px;
+        
+
+      
+    }
+
+    .imagem{
+        float: right;
+        display: block;
+        width: 50%;
+        height: 200px;
+        background-color: black;
+        margin-top: 6%;
+        margin-right: 3%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #imagem4{
+        background-image: url(imagens/comp_android.jpeg);
+    }
+
+
+    #imagem5{
+        background-image: url(imagens/comp_login.jpeg);
+    }
+
+    #imagem6{
+        background-image: url(imagens/comp_cordel.jpeg);
+        background-position: bottom center;
+    }
+    #infor-projeto{
+        width: 40%;
+        height: 200px;
+        display: block;
+        float: left;
+        margin: 3%;
+        margin-top: 6%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #infor-projeto > p{
+        margin: 8%;
+        padding-left: 26px;
+    }
+    
+    h2{
+        font-size: 1.2em;
+
+    }
+    section#projetos > article{
+        height: 30%;
+        
+      
+    }
+    #linguagem{
+       margin-left: auto;
+       margin-right: auto;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        border-radius: 100%;
+      }
+      #linguagem > img{
+        margin-top: 13%;    
+    }
 }
