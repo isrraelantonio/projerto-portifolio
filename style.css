@@ -21,7 +21,7 @@
 }
 ::-webkit-scrollbar{
     width: 0px;
-    height: 0px;
+    height:0px;
 }
 html, body{
     width: 100%;
@@ -316,22 +316,34 @@ section#projetos > article{
 
 #conversa{
     width: 90%;
-    height: 110px;
+    height: 130px;
     background-color: #b8f5ed;
     margin: 0px auto 15px auto;
     text-align: center;
     padding: 20px 10px 10px 10px;
     font-family: var(--fonte1);
     font-size: 0.7em;
-    color: #074892;
+   
    
 }
-#contato>  p{
+#contato >  p{
     font-family: var(--fonte1);
     text-align: center;
     margin-bottom: 40px;
     text-decoration: underline;  
 }
+
+#conversa > p{
+    margin-top: 28px;
+}
+#voltar > a{
+    margin-top: 30px;
+    font-family: var(--fonte1);
+    font-size: large;
+    color: #0756B2;
+    
+}
+
 p> img{
    width: 50px;
    height: 50px;
