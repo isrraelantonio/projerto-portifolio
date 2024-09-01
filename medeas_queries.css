@@ -17,9 +17,11 @@
 
      }
 
-    a:hover{
-       font-size: 1em;
+     li:hover{
+        transform: translate(0px, -3px);
+    
     }
+    
     
     main{
 
@@ -33,8 +35,19 @@
         width: 78%; 
         margin-left: auto;
         margin-right: auto;
+        padding-top: 4%;
+       
     }
-    
+
+    #imagem{
+        display: block;
+        float: left;
+        width: 30%;
+    }
+    #texto{
+        float: right;
+        width: 70%;
+    }
     #redes{
         width: 150px;
     }
@@ -47,9 +60,28 @@
         width: 90%;
         margin: auto;
     }
+    #quemsou{
+        width: 80%;
+        height: 300px;
+        padding: 80px 40px 20px 20px;
+       
+       
+    }
+    #imagem2{
+        display: block;
+        float: right;
+        width: 30%;
+        height: 80%;
+    }
+    #texto2{
+        float: left;
+        width: 70%;
+    }
     #projetos{
         height: 1000px;
-        background-color: rgba(0, 0, 0, 0.045);
+        width: 80%;
+        margin: auto;
+        
        
     }
     
@@ -93,12 +125,24 @@
         margin: 3%;
         margin-top: 5%;
         border-radius: 10px 10px 10px 10px;
-    }
-    #infor-projeto > p{
-        margin: 8%;
-        padding-left: 26px;
+        background-color: white;
+        
     }
     
+    #sobre{
+        background-color: rgba(95, 158, 160, 0.286);
+        padding: 10px;
+        box-shadow: #0000002e 2px 2px 8px ;
+
+    }
+    #infor-projeto > #acesse{
+       
+        padding-left: 26px;
+    }
+    #acesse > a:hover{
+        font-size: 1em;
+
+    }
     
     h2{
         font-size: 1.2em;
@@ -115,7 +159,13 @@
          border-radius: 100%;
        }
        #linguagem > img{
-         margin-top: 13%;    
+         margin-top: 3%;    
+     }
+     
+     footer{
+        font-size: 0.9em;
+        padding-top: 20px;
+        height: 60px;
      }
 
 
@@ -133,11 +183,13 @@
         margin-right: 27px;
 
      }
-
-    a:hover{
-       font-size: 1em;
+     li:hover{
+        transform: translate(0px, -3px);
+    
     }
+    
 
+    
     main{
         width: 80%;
         margin-left: auto;
@@ -150,13 +202,24 @@
         width: 78%; 
         margin-left: auto;
         margin-right: auto;
+        padding-top: 6%;
+      
+    }
+    #imagem{
+        display: block;
+        float: left;
+        width: 30%;
+        height: 90%;
+    }
+    #texto{
+        float: right;
+        width: 70%;
     }
     
     #redes{
         width: 150px;
     }
     a > img{
-       
         width: 46px;
         height: 46px;
     }
@@ -164,27 +227,42 @@
         width: 90%;
         margin: auto;
     }
-    #projetos{
-        height: 1090px;
-        background-color: rgba(0, 0, 0, 0.045);
+
+    #quemsou{
+        width: 80%;
+        height: 300px;
+        padding: 60px 40px 20px 20px;
+        background-color: #b8f5ed;
        
+       
+       
+    }
+    #imagem2{
+        display: block;
+        float: right;
+        width: 30%;
+        height: 90%;
+    }
+    #texto2{
+        float: right;
+        width: 70%;
+    }
+    #projetos{
+        height: 1220px;
     }
     
     .texto{
         width: 100%;
         height: 300px;
-        
-
-      
     }
 
     .imagem{
         float: right;
         display: block;
         width: 50%;
-        height: 200px;
+        height: 300px;
         background-color: black;
-        margin-top: 6%;
+        margin-top: 5%;
         margin-right: 3%;
         border-radius: 10px 10px 10px 10px;
     }
@@ -207,12 +285,24 @@
         display: block;
         float: left;
         margin: 3%;
-        margin-top: 4%;
+        margin-top: 10%;
         border-radius: 10px 10px 10px 10px;
+        background-color: white;
     }
     #infor-projeto > p{
-        margin: 8%;
         padding-left: 26px;
+       
+    }
+    #sobre{
+        background-color: rgba(95, 158, 160, 0.286);
+        padding: 20px;
+        box-shadow: #0000002e 2px 2px 8px ;
+
+    }
+    #acesse > a:hover{
+        font-size: 1em;
+        
+
     }
     
     h2{
@@ -227,21 +317,25 @@
     #linguagem{
         width: 60px;
         height: 20px;
-        margin: 7px auto 0px auto;
+        margin: 0px auto 0px auto;
     }
     
     #linguagem{
-       margin-left: auto;
-       margin-right: auto;
-       width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
         height: 50px;
-        background-color: white;
         border-radius: 100%;
       }
-      #linguagem > img{
-        margin-top: 13%;    
-    }
-    
+      footer{
+        font-size: 1em;
+        height: 70px;
+        padding-top: 30px;
+        
+     }
+
+     
+      
 
 
 

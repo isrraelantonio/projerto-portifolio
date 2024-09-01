@@ -39,14 +39,14 @@ header{
 menu{
     background-color: #085CA6;
     margin-top: 0px;
-    height: 40px;
+    height: 50px;
 }
 
 ul{
     text-align:center;
     width: 100vw;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 
@@ -57,7 +57,7 @@ li{
 
 a{
     color:#0FF2DB;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-right: 20px;
     font-family: var(--fonte1);
     text-decoration: none;
@@ -65,7 +65,11 @@ a{
 
 a:hover{
     color:   #f6fdfd;
-    font-size: 0.9em;
+    
+}
+li:hover{
+    transform: translate(0px, -3px);
+
 }
 
 
@@ -163,13 +167,13 @@ a:hover > img{
 
 
 #quemsou{
-    background-image: linear-gradient(to top, #0756B2, #32A9D3, #A3DAE5, #6AE1E9);
+    background-color: #b8f5ed;
     height: 450px;
     padding-top: 20px;
     width: 60%;
     margin: auto;
     border-radius: 10px;
-    box-shadow: #0000001e 2px 2px 8px ;
+    box-shadow: #0000002b 2px 2px 8px ;
     
 }
 
@@ -264,7 +268,7 @@ section#projetos > article{
     text-align: center;
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: #0000001e 2px 2px 8px ;
+    box-shadow: #00000000 2px 2px 8px ;
 }
 #infor-projeto > p{
    
@@ -340,41 +344,11 @@ p> img{
 footer{ 
     height: 40px;
     background-color: #085CA6;
-  
-}
-#a, #b, #c {
-    display: inline-block;
-    font-size: 0.7em;
     color: #0FF2DB;
-    padding-top: 5px;
+    padding-top: 18px;
+    font-size: 0.7em;
+    text-align: center;
+}
+footer > p{
     font-family: var(--fonte1);
-}
-#a{
-    float: left ;
-    font-size: 0.9em;
-    margin-top: 10px;
-    width: 15%;
-    text-align: center;
-   
-    padding-left: ;
-}
-#b{
-    margin-top: 14px;
-   
-    width: 50%;
-    float: center center;
-    text-align: center;
-}
-#c{
-    margin-top: 2px;
-    float: right ;
-    width: 34%;
-    text-align: center;
-    
-}
-#c span{
-    transform: translate(0px, 5px);
-}
-#c span:hover{
-   transform: translate(3px, 0px);
 }
