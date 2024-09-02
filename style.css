@@ -193,7 +193,7 @@ a:hover > img{
     background-size: 200px;
     background-position: center center;
     margin: 0px auto 0px auto;
-    border-radius:100%;
+    border-radius:%;
 }
 
 #texto2{
